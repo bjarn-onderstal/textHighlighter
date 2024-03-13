@@ -1,8 +1,9 @@
 ## TextHighlighter
-[A widget to highlight specific words in a text]
+A widget to highlight specific words in a text
 
 ## Features
-[feature highlights]
+- Highlight word(s) in a text
+- Add a divider to have multiple words highlighted
 
 ## Usage
 [step by step instructions]
