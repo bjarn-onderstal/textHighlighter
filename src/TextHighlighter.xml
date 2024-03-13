@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="kobeon.texthighlighter.TextHighlighter" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Text Highlighter</name>
+    <description>A widget to highlight specific words in a text</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="inputText" type="attribute">
+                <caption>Input Text</caption>
+                <description>The input text with the words that should be highlighted</description>
+                <attributeTypes>
+                    <attributeType name="String" />
+                </attributeTypes>
+            </property>
+            <property key="query" type="attribute">
+                <caption>Highlighted words</caption>
+                <description>The words that should be highlighted</description>
+                <attributeTypes>
+                    <attributeType name="String" />
+                </attributeTypes>
+            </property>
+            <property key="divider" type="attribute">
+                <caption>Word divider</caption>
+                <description>The divider when you want to highlight multiple words</description>
+                <attributeTypes>
+                    <attributeType name="String" />
+                </attributeTypes>
+            </property>
+            <property key="classNameHighlight" type="expression">
+                <caption>Class name</caption>
+                <description>The class name that should be added to highlighted words</description>
+                <returnType type="String" />
+            </property>
+            <property key="wordsCaseSensitive" type="boolean" defaultValue="false">
+                <caption>Case Sensitive</caption>
+                <description/>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
